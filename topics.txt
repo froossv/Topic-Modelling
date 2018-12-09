@@ -1,0 +1,12 @@
+[
+(0, '0.056*"mail" + 0.050*"message" + 0.047*"contain" + 0.047*"intend" + 0.044*"attachment" + 0.039*"information" + 0.035*"recipient" + 0.031*"copy" + 0.025*"may" + 0.023*"notify"'),
+(1, '0.054*"kumar" + 0.035*"assessment" + 0.021*"png" + 0.018*"singh" + 0.016*"manager" + 0.014*"perform" + 0.013*"sharma" + 0.011*"oct" + 0.011*"associate" + 0.010*"iob"'),
+(2, '0.072*"status" + 0.058*"report" + 0.053*"synergita" + 0.047*"feedback" + 0.043*"com" + 0.036*"image" + 0.033*"support" + 0.031*"www" + 0.026*"assessment" + 0.020*"attach"'),
+(3, '0.057*"email" + 0.029*"vedanta" + 0.024*"information" + 0.023*"computer" + 0.018*"entity" + 0.017*"group" + 0.016*"take" + 0.014*"name" + 0.013*"liability" + 0.012*"privileged"'),
+(4, '0.031*"message" + 0.026*"gurjap_kaur" + 0.025*"joy_afonso" + 0.019*"mid_year" + 0.018*"may" + 0.017*"manager" + 0.016*"take" + 0.016*"relation_updation" + 0.015*"reporting" + 0.013*"virus"'),
+(5, '0.057*"email" + 0.057*"konkola" + 0.039*"www" + 0.036*"mine" + 0.032*"com" + 0.032*"facebook" + 0.027*"copper" + 0.014*"environment" + 0.014*"solely" + 0.014*"consider"'),
+(6, '0.058*"manager" + 0.049*"employee" + 0.045*"primary" + 0.035*"would" + 0.035*"name" + 0.031*"goal" + 0.028*"number" + 0.020*"email" + 0.020*"change" + 0.018*"follow"'),
+(7, '0.057*"kpi" + 0.041*"kumar" + 0.037*"set" + 0.029*"nidhi_kumari" + 0.024*"pend" + 0.018*"self" + 0.018*"manager" + 0.018*"singh" + 0.016*"assessment" + 0.016*"status"'),
+(8, '0.067*"com" + 0.067*"www" + 0.037*"http" + 0.033*"email" + 0.024*"agshealth" + 0.021*"human" + 0.019*"https" + 0.018*"resource" + 0.016*"ags_health" + 0.014*"mobile"'),
+(9, '0.045*"send" + 0.037*"complete" + 0.030*"november" + 0.027*"safety" + 0.027*"october" + 0.023*"start" + 0.023*"assessment" + 0.021*"regard" + 0.015*"pm" + 0.013*"performance"')
+]
