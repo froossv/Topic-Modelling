@@ -1,3 +1,4 @@
+#Before custom_stopwords
 [
 (0, '0.056*"mail" + 0.050*"message" + 0.047*"contain" + 0.047*"intend" + 0.044*"attachment" + 0.039*"information" + 0.035*"recipient" + 0.031*"copy" + 0.025*"may" + 0.023*"notify"'),
 (1, '0.054*"kumar" + 0.035*"assessment" + 0.021*"png" + 0.018*"singh" + 0.016*"manager" + 0.014*"perform" + 0.013*"sharma" + 0.011*"oct" + 0.011*"associate" + 0.010*"iob"'),
@@ -9,4 +10,18 @@
 (7, '0.057*"kpi" + 0.041*"kumar" + 0.037*"set" + 0.029*"nidhi_kumari" + 0.024*"pend" + 0.018*"self" + 0.018*"manager" + 0.018*"singh" + 0.016*"assessment" + 0.016*"status"'),
 (8, '0.067*"com" + 0.067*"www" + 0.037*"http" + 0.033*"email" + 0.024*"agshealth" + 0.021*"human" + 0.019*"https" + 0.018*"resource" + 0.016*"ags_health" + 0.014*"mobile"'),
 (9, '0.045*"send" + 0.037*"complete" + 0.030*"november" + 0.027*"safety" + 0.027*"october" + 0.023*"start" + 0.023*"assessment" + 0.021*"regard" + 0.015*"pm" + 0.013*"performance"')
+]
+
+#After custom_stopwords
+[
+(0, '0.037*"vedanta" + 0.020*"liability" + 0.017*"name" + 0.016*"take" + 0.016*"company" + 0.016*"system" + 0.016*"virus" + 0.015*"may" + 0.015*"delete" + 0.015*"review"'),
+(1, '0.045*"agshealth" + 0.035*"mid_year" + 0.032*"human" + 0.030*"ags_health" + 0.026*"india" + 0.021*"resource" + 0.018*"hzl" + 0.017*"oct" + 0.014*"appraisal" + 0.013*"arun"'),
+(2, '0.047*"intend" + 0.045*"attachment" + 0.043*"contain" + 0.027*"addressee" + 0.025*"may" + 0.024*"distribute" + 0.022*"confidential" + 0.022*"immediately" + 0.022*"privileged" + 0.022*"exclusive"'),
+(3, '0.057*"kumar" + 0.052*"manager" + 0.036*"number" + 0.020*"safety" + 0.018*"sharma" + 0.016*"reporting" + 0.014*"jain" + 0.013*"operation" + 0.011*"project" + 0.009*"gupta"'),
+(4, '0.032*"set" + 0.027*"send" + 0.026*"goal" + 0.025*"kpi" + 0.024*"complete" + 0.020*"employee" + 0.018*"start" + 0.015*"team" + 0.013*"nidhi_kumari" + 0.013*"dear"'),
+(5, '0.034*"view" + 0.028*"attachment" + 0.028*"indegene" + 0.027*"synergita" + 0.023*"intend" + 0.021*"description" + 0.020*"may" + 0.019*"safety" + 0.017*"delete" + 0.016*"send"'),
+(6, '0.102*"assessment" + 0.035*"singh" + 0.026*"self" + 0.023*"kumar" + 0.021*"pend" + 0.019*"send" + 0.016*"kpi" + 0.015*"employee" + 0.015*"workflow" + 0.013*"complete"'),
+(7, '0.018*"may" + 0.016*"finance" + 0.015*"relation" + 0.015*"country" + 0.012*"business" + 0.010*"client" + 0.010*"vedanta" + 0.010*"action" + 0.009*"skorpion_zinc" + 0.009*"solely"'),
+(8, '0.076*"konkola" + 0.048*"mine" + 0.036*"copper" + 0.026*"plc" + 0.019*"may" + 0.019*"solely" + 0.019*"transmit" + 0.018*"author" + 0.018*"environment" + 0.018*"taona"'),
+(9, '0.034*"employee" + 0.027*"intend" + 0.025*"manager" + 0.025*"gurjap_kaur" + 0.024*"may" + 0.023*"joy_afonso" + 0.017*"name" + 0.017*"synergita" + 0.017*"take" + 0.015*"follow"')
 ]

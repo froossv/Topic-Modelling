@@ -1,7 +1,7 @@
 words = [
 'associate',
 'director',
-'manager'
+'manager',
 'job',
 'entity',
 'group',
@@ -52,7 +52,7 @@ words = [
 'jul',
 'aug',
 'sep',
-'oct'
+'oct',
 'nov',
 'dec',
 'email',
@@ -77,5 +77,9 @@ words = [
 'support',
 'consider',
 'regard',
-'regards'
+'regards',
+'synergita',
+'company',
+'liability',
+
 ]

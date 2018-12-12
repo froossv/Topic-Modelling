@@ -14,6 +14,8 @@ def sent_to_words(sentences):
 
 def remove_stopwords(texts):
     extend_stop_words()
+    #print(stop_words)
+    #input("Waiting")
     return [[word for word in simple_preprocess(str(doc)) if word not in stop_words] for doc in texts]
 
 def make_bigrams(texts,phraser):
@@ -35,9 +37,9 @@ def extend_stop_words():
     #female = df.name.values.tolist()
     #stop_words.extend(i for i in female)
 
-    #df = pd.read_json('en.json')
-    #words = df.values.tolist()
-    #stop_words.extend(i for i in words)
+    df = pd.read_json('en.json')
+    words = df.values.tolist()
+    stop_words.extend(i for i in words)
 
     words = custom_stopwords.words
     stop_words.extend(i for i in words)

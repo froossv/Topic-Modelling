@@ -1,10 +1,11 @@
 #Imports
 import re
+import guidedlda
+import numpy as np
 import pandas as pd
 
 import gensim
 import gensim.corpora as corpora
-from gensim.utils import simple_preprocess
 from gensim.models import CoherenceModel
 
 #Custom Imports
@@ -38,6 +39,9 @@ data_lemzed = lemmatization(data_words_bigrams, allowed=['NOUN','ADJ','VERB','AD
 id2word = corpora.Dictionary(data_lemzed)
 corpus = [id2word.doc2bow(text) for text in data_lemzed]
 
-lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,id2word=id2word,num_topics=10,random_state=729,update_every=1,chunksize=100,passes=10,alpha='auto',per_word_topics=True)
-
-print(lda_model.print_topics())
+model = guidedlda.GuidedLDA(n_topics=5, n_iter=100, alpha=0.01,random_state=None, refresh=20)
+topic_word = model.topic_word_
+n_top_words = 8
+for i,topic_dist in enumerate(topic_word):
+    topic_words = np.array(vocab)[np.argsort(topic_dist)][:-(n_top_words+1):-1]
+    print('Topic {}: {}'.format(i, ''.join(topic_words)))
