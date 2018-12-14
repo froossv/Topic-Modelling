@@ -16,7 +16,7 @@ tickets = pd.read_excel(tickets_excel, usecols=[0,1,2])
 
 #print(tickets.head(10))
 #PreProcess Data
-data = tickets.content.values.tolist()
+data = tickets.Subject.values.tolist()
 data = [re.sub('\S*@\S*\s?', '', str(sent)) for sent in data]
 data = [re.sub('\s+',' ',sent) for sent in data]
 data = [re.sub('\'',"",sent) for sent in data]

@@ -25,3 +25,17 @@
 (8, '0.076*"konkola" + 0.048*"mine" + 0.036*"copper" + 0.026*"plc" + 0.019*"may" + 0.019*"solely" + 0.019*"transmit" + 0.018*"author" + 0.018*"environment" + 0.018*"taona"'),
 (9, '0.034*"employee" + 0.027*"intend" + 0.025*"manager" + 0.025*"gurjap_kaur" + 0.024*"may" + 0.023*"joy_afonso" + 0.017*"name" + 0.017*"synergita" + 0.017*"take" + 0.015*"follow"')
 ]
+
+#Using Subject
+[
+(0, '0.206*"year" + 0.081*"request" + 0.079*"reviewer" + 0.070*"detail" + 0.031*"fwd" + 0.027*"line" + 0.027*"form" + 0.025*"call" + 0.025*"show" + 0.024*"competency"'),
+(1, '0.243*"change" + 0.097*"report" + 0.080*"update" + 0.052*"relation" + 0.032*"name" + 0.032*"reg" + 0.022*"target" + 0.021*"score" + 0.019*"fill" + 0.017*"action_item"'),
+(2, '0.193*"assessment" + 0.128*"set" + 0.082*"safety" + 0.064*"appraiser" + 0.062*"reminder" + 0.050*"template" + 0.038*"kra" + 0.028*"available" + 0.027*"able" + 0.019*"activation"'),
+(3, '0.161*"goal" + 0.141*"error" + 0.092*"setting" + 0.056*"account" + 0.037*"add" + 0.034*"kumar" + 0.024*"regard" + 0.018*"miss" + 0.017*"mystep" + 0.017*"activate"'),
+(4, '0.090*"access" + 0.082*"login" + 0.067*"system" + 0.056*"kpis" + 0.053*"need" + 0.050*"management" + 0.040*"performance" + 0.030*"training" + 0.027*"option" + 0.024*"problem"'),
+(5, '0.198*"mid" + 0.131*"issue" + 0.060*"rating" + 0.041*"revert" + 0.039*"reporting" + 0.038*"portal" + 0.027*"_" + 0.025*"visible" + 0.021*"view" + 0.019*"log"'),
+(6, '0.225*"kpi" + 0.068*"vperform" + 0.044*"move" + 0.027*"team" + 0.026*"objective" + 0.020*"upload" + 0.020*"master" + 0.020*"approval" + 0.019*"remove" + 0.018*"forget"'),
+(7, '0.115*"self" + 0.104*"employee" + 0.094*"cycle" + 0.086*"review" + 0.080*"appraisal" + 0.049*"performance" + 0.042*"fy" + 0.031*"mapping" + 0.029*"initiation" + 0.021*"datum"'),
+(8, '0.146*"unable" + 0.090*"open" + 0.079*"updation" + 0.044*"new" + 0.029*"feed_back" + 0.028*"offline" + 0.025*"check" + 0.024*"submit" + 0.016*"see" + 0.015*"amit"'),
+(9, '0.137*"pms" + 0.112*"password" + 0.097*"reset" + 0.066*"pend" + 0.061*"urgent" + 0.047*"would" + 0.029*"role" + 0.026*"link" + 0.022*"require" + 0.020*"user"')
+]

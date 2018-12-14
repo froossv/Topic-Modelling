@@ -39,7 +39,7 @@ data_lemzed = lemmatization(data_words_bigrams, allowed=['NOUN','ADJ','VERB','AD
 id2word = corpora.Dictionary(data_lemzed)
 corpus = [id2word.doc2bow(text) for text in data_lemzed]
 
-model = guidedlda.GuidedLDA(n_topics=5, n_iter=100, alpha=0.01,random_state=None, refresh=20)
+model = guidedlda.GuidedLDA(n_topics=5, n_iter=100, random_state=7, refresh=20)
 topic_word = model.topic_word_
 n_top_words = 8
 for i,topic_dist in enumerate(topic_word):

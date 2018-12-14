@@ -81,5 +81,6 @@ words = [
 'synergita',
 'company',
 'liability',
-
+'forward',
+'fwd'
 ]
