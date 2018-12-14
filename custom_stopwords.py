@@ -82,5 +82,8 @@ words = [
 'company',
 'liability',
 'forward',
-'fwd'
+'fwd',
+'_',
+'year',
+'re'
 ]

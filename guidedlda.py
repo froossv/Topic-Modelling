@@ -10,14 +10,13 @@ from gensim.models import CoherenceModel
 
 #Custom Imports
 from functions import *
-
 #Import Data
 tickets_excel = 'tickets-con.xls'
 tickets = pd.read_excel(tickets_excel, usecols=[0,1,2])
 
 #print(tickets.head(10))
 #PreProcess Data
-data = tickets.content.values.tolist()
+data = tickets.Subject.values.tolist()
 data = [re.sub('\S*@\S*\s?', '', str(sent)) for sent in data]
 data = [re.sub('\s+',' ',sent) for sent in data]
 data = [re.sub('\'',"",sent) for sent in data]
@@ -37,11 +36,14 @@ data_words_bigrams = make_bigrams(data_words_nostop,bigram_mod)
 data_lemzed = lemmatization(data_words_bigrams, allowed=['NOUN','ADJ','VERB','ADV'])
 
 id2word = corpora.Dictionary(data_lemzed)
+print(id2word)
+input()
 corpus = [id2word.doc2bow(text) for text in data_lemzed]
-
-model = guidedlda.GuidedLDA(n_topics=5, n_iter=100, random_state=7, refresh=20)
-topic_word = model.topic_word_
-n_top_words = 8
-for i,topic_dist in enumerate(topic_word):
-    topic_words = np.array(vocab)[np.argsort(topic_dist)][:-(n_top_words+1):-1]
-    print('Topic {}: {}'.format(i, ''.join(topic_words)))
+print(corpus)
+input()
+#model = guidedlda.GuidedLDA(n_topics=5, n_iter=100, random_state=7, refresh=20)
+#opic_word = model.topic_word_
+#n_top_words = 8
+#for i,topic_dist in enumerate(topic_word):
+#    topic_words = np.array(vocab)[np.argsort(topic_dist)][:-(n_top_words+1):-1]
+#    print('Topic {}: {}'.format(i, ''.join(topic_words)))
