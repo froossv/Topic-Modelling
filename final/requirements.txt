@@ -1,0 +1,7 @@
+pandas
+gensim
+openpyxl
+xlrd
+xlwt
+nltk
+spacy

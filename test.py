@@ -1,4 +1,4 @@
-import custom_stopwords
+import sys
 
-list = custom_stopwords.words
-print(list[1:5])
+for x in sys.argv:
+    print("arguments:",x)
